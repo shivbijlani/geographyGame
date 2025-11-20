@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Border Blaster - Tiny Build</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Border Blaster: Africa Tiny Build</h1>
+    <p class="tagline">Explore, chat, and blast through borders to learn African geography.</p>
+  </header>
+
+  <main>
+    <section class="game-wrapper">
+      <canvas id="gameCanvas" width="640" height="640" aria-label="Game world" role="img"></canvas>
+      <section class="hud">
+        <div class="hud-item">
+          <h2>Current Country</h2>
+          <p id="hudCountry">Unknown</p>
+        </div>
+        <div class="hud-item">
+          <h2>Message</h2>
+          <p id="hudMessage">Move with Arrow Keys or WASD. Bump into NPCs to chat.</p>
+        </div>
+        <div class="hud-item">
+          <h2>Instructions</h2>
+          <ul>
+            <li>Arrow Keys / WASD: Move</li>
+            <li>Walk next to an NPC: Auto-chat</li>
+            <li>Explore the map to unlock country facts</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built for learning and laughter — expand this map to conquer the whole continent!</p>
+  </footer>
+
+  <script src="game.js"></script>
+</body>
+</html>
